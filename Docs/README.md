@@ -17,3 +17,14 @@ This is done so that the client application always knows the state of the server
 the state of the server and the last message received via the web socket.
 
 ![NgRx](NgRx.svg)
+
+### Server Status Indicator
+![NgRx](server-status.ping.png)
+
+![NgRx](server-status.offline.png)
+
+![NgRx](server-status.online.png)
+
+### Redux Log
+
+![NgRx](redux-log.png)
