@@ -26,5 +26,72 @@ the state of the server and the last message received via the web socket.
 ![NgRx](server-status.online.png)
 
 ### Redux Log
-
 ![NgRx](redux-log.png)
+
+## <a name="2"></a> 2. GraphQL Examples
+
+### Mutation
+```graphql
+mutation AddAuditEvent($e: AddAuditEventInput) {
+  addAuditEvent(e: $e) {
+    id
+    dateTimeUtc
+    url
+    subject
+    description
+  }
+}
+```
+**Variables**
+```json
+{
+  "e": {
+    "description": "test",
+    "subject": "John Doe"
+  }
+}
+```
+
+### Query
+```graphql
+query AuditEvents($skip: Int!, $take: Int!) {
+  auditEvents(order: { id: DESC }, skip: $skip, take: $take) {
+    items {
+      id
+      dateTimeUtc
+      url
+      subject
+      description
+    }
+    totalCount
+  }
+}
+```
+**Variables**
+```json
+{
+  "skip": 1,
+  "take": 2
+}
+```
+
+### Subscription
+```graphql
+subscription ServerMessageReceived {
+  serverMessageReceived {
+    messageType
+    contentType
+    content
+  }
+}
+```
+**Ping**
+```graphql
+mutation {
+  ping {
+    messageType
+    contentType
+    content  
+  }
+}
+```
