@@ -14,6 +14,6 @@ This is done so that the client application always knows the state of the server
 ### Server Connection NgRx Action Diagram
 * The dots represent events.
 * The store contains two states:
-the server state and the last message received on the web socket.
+the state of the server and the last message received via the web socket.
 
-![NgRx](NgRx.png)
+![NgRx](NgRx.svg)

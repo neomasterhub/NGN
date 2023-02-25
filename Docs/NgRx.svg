@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG NgRx.svg Страница-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.53555in" height="3.99452in"
+		viewBox="0 0 614.56 287.606" xml:space="preserve" color-interpolation-filters="sRGB" class="st27">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#fbf4f1;stroke:#bd6b0c;stroke-linecap:butt;stroke-width:1.25}
+		.st2 {fill:#000000;font-family:Cascadia Mono;font-size:0.666664em}
+		.st3 {fill:#f5f6f4;stroke:#7a8470;stroke-linecap:butt;stroke-width:1.25}
+		.st4 {fill:#871094;font-family:Cascadia Mono;font-size:0.666664em}
+		.st5 {fill:#080808;font-size:1em}
+		.st6 {fill:#7a7a43;font-size:1em}
+		.st7 {fill:#0070c0;font-size:0.749991em}
+		.st8 {marker-end:url(#mrkr4-27);stroke:#9c4722;stroke-linecap:butt;stroke-width:0.72}
+		.st9 {fill:#9c4722;fill-opacity:1;stroke:#9c4722;stroke-opacity:1;stroke-width:0.28571428571429}
+		.st10 {fill:url(#grad0-51);stroke:#9c4722;stroke-linecap:butt;stroke-width:0.24}
+		.st11 {fill:#92d050;stroke:#000000;stroke-linecap:butt;stroke-width:0.24;visibility:hidden}
+		.st12 {fill:#000000;stroke:none;stroke-linecap:butt;stroke-width:0.24;visibility:hidden}
+		.st13 {fill:#92d050;stroke:#9c4722;stroke-linecap:butt;stroke-width:0.24;visibility:hidden}
+		.st14 {marker-end:url(#mrkr4-81);stroke:#92d050;stroke-linecap:butt;stroke-width:0.72}
+		.st15 {fill:#92d050;fill-opacity:1;stroke:#92d050;stroke-opacity:1;stroke-width:0.28571428571429}
+		.st16 {marker-end:url(#mrkr4-87);stroke:#a09b69;stroke-linecap:butt;stroke-width:0.72}
+		.st17 {fill:#a09b69;fill-opacity:1;stroke:#a09b69;stroke-opacity:1;stroke-width:0.28571428571429}
+		.st18 {fill:url(#grad0-92);stroke:#9c4722;stroke-linecap:butt;stroke-width:0.24}
+		.st19 {fill:#ff0000;stroke:#000000;stroke-linecap:butt;stroke-width:0.24;visibility:hidden}
+		.st20 {fill:#ff0000;stroke:#9c4722;stroke-linecap:butt;stroke-width:0.24;visibility:hidden}
+		.st21 {marker-end:url(#mrkr4-122);stroke:#ff0000;stroke-linecap:butt;stroke-width:0.72}
+		.st22 {fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:0.28571428571429}
+		.st23 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:1.25}
+		.st24 {fill:#ff0000;font-family:Cascadia Code;font-size:0.499992em;font-weight:bold}
+		.st25 {font-size:1em;font-weight:normal}
+		.st26 {fill:#92d050;font-family:Cascadia Code;font-size:0.499992em;font-weight:bold}
+		.st27 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad0-51" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0.02" stop-color="#94d051" stop-opacity="1"/>
+			<stop offset="0.34" stop-color="#94d051" stop-opacity="1"/>
+			<stop offset="0.96" stop-color="#94d051" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-92" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0.02" stop-color="#ff0000" stop-opacity="1"/>
+			<stop offset="0.34" stop-color="#ff0000" stop-opacity="1"/>
+			<stop offset="0.96" stop-color="#ff0000" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-27" class="st9" v:arrowType="4" v:arrowSize="1" v:setback="7" refX="-7" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.5,-3.5) "/>
+		</marker>
+		<marker id="mrkr4-81" class="st15" v:arrowType="4" v:arrowSize="1" v:setback="7" refX="-7" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.5,-3.5) "/>
+		</marker>
+		<marker id="mrkr4-87" class="st17" v:arrowType="4" v:arrowSize="1" v:setback="7" refX="-7" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.5,-3.5) "/>
+		</marker>
+		<marker id="mrkr4-122" class="st22" v:arrowType="4" v:arrowSize="1" v:setback="7" refX="-7" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.5,-3.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="visNavType" v:val="VT0(1):26"/>
+		</v:userDefs>
+		<title>Страница-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Блок-схема" v:index="0"/>
+		<v:layer v:name="Соединительная линия" v:index="1"/>
+		<g id="shape194-1" v:mID="194" v:groupContext="shape" v:layerMember="0" transform="translate(210.492,-261.739)">
+			<title>Скругленный процесс.194</title>
+			<desc>[App] is created</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(74000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" rx="12.3083" ry="12.3083" class="st1"/>
+			<text x="52.95" y="277.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>[App] is created</text>		</g>
+		<g id="shape329-4" v:mID="329" v:groupContext="shape" v:layerMember="0" transform="translate(432.415,-218.324)">
+			<title>Внешняя сущность 1.270</title>
+			<desc>consumeServerMessagesService .subscribe()</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(123000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" class="st3"/>
+			<text x="24.82" y="272.9" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>consumeServerMessagesService<v:newlineChar/><tspan
+						x="62.32" dy="1.2em" class="st5">.</tspan><tspan class="st6">subscribe</tspan><tspan class="st5">()</tspan></text>		</g>
+		<g id="shape357-10" v:mID="357" v:groupContext="shape" v:layerMember="0" transform="translate(432.415,-174.909)">
+			<title>Скругленный процесс.357</title>
+			<desc>server message is received server message: message</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(137000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" rx="12.3083" ry="12.3083" class="st3"/>
+			<text x="29.51" y="273.92" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>server message is received<v:newlineChar/><tspan
+						x="50.02" dy="1.343em" class="st7">server message: message</tspan></text>		</g>
+		<g id="shape374-14" v:mID="374" v:groupContext="shape" v:layerMember="0" transform="translate(210.492,-218.324)">
+			<title>Скругленный процесс.374</title>
+			<desc>[Server Connection] is configured server status: unknown</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(142000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" rx="12.3083" ry="12.3083" class="st3"/>
+			<text x="13.1" y="273.92" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>[Server Connection] is configured<v:newlineChar/><tspan
+						x="51.78" dy="1.343em" class="st7">server status: unknown</tspan></text>		</g>
+		<g id="shape375-18" v:mID="375" v:groupContext="shape" v:layerMember="0" transform="translate(210.492,-174.909)">
+			<title>Скругленный процесс.267</title>
+			<desc>is establishing server status: ping</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(143000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" rx="12.3083" ry="12.3083" class="st3"/>
+			<text x="55.29" y="273.92" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>is establishing<v:newlineChar/><tspan
+						x="57.05" dy="1.343em" class="st7">server status: ping</tspan></text>		</g>
+		<g id="shape376-22" v:mID="376" v:groupContext="shape" v:layerMember="1" transform="translate(293.853,-261.739)">
+			<title>Динамическая соединительная линия</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.13054277670848):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.50000002558688):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.098425194621086,-0.13054277670848)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(144000):26"/>
+			</v:userDefs>
+			<path d="M7.09 287.61 L7.09 301.36" class="st8"/>
+		</g>
+		<g id="shape377-28" v:mID="377" v:groupContext="shape" v:layerMember="0" transform="translate(210.492,-131.494)">
+			<title>Скругленный процесс.356</title>
+			<desc>is established server status: online</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(145000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" rx="12.3083" ry="12.3083" class="st3"/>
+			<text x="57.63" y="273.92" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>is established<v:newlineChar/><tspan
+						x="53.53" dy="1.343em" class="st7">server status: online</tspan></text>		</g>
+		<g id="shape378-32" v:mID="378" v:groupContext="shape" v:layerMember="0" transform="translate(210.492,-88.0796)">
+			<title>Скругленный процесс.319</title>
+			<desc>is failed server status: offline</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(146000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" rx="12.3083" ry="12.3083" class="st3"/>
+			<text x="69.35" y="273.92" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>is failed<v:newlineChar/><tspan
+						x="51.78" dy="1.343em" class="st7">server status: offline</tspan></text>		</g>
+		<g id="shape379-36" v:mID="379" v:groupContext="shape" v:layerMember="0" transform="translate(1.25,-218.324)">
+			<title>Внешняя сущность 1.260</title>
+			<desc>configureGraphqlWsService .configure()</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(147000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" class="st3"/>
+			<text x="31.85" y="272.67" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>configureGraphqlWsService<v:newlineChar/><tspan
+						x="62.32" dy="1.244em" class="st5">.</tspan><tspan class="st6">configure</tspan><tspan class="st5">()</tspan></text>		</g>
+		<g id="shape380-42" v:mID="380" v:groupContext="shape" v:layerMember="1" transform="translate(300.939,-254.727)">
+			<title>Динамическая соединительная линия.380</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(-1.4530667470719):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.48401957861328):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(-1.4530667470719,-0.033153808496154)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(148000):26"/>
+			</v:userDefs>
+			<path d="M0 289.99 L-204.99 289.99 A4.25197 4.25197 -180 0 0 -209.24 294.24 L-209.24 294.35" class="st8"/>
+		</g>
+		<g id="group360-47" transform="translate(159.02,-213.102)" v:mID="360" v:groupContext="group" v:layerMember="0">
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey="A"
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnEventType" v:lbl="Тип события" v:prompt="" v:type="1"
+						v:format="Начальное событие;Начальное (без прерывания); Промежуточное событие; Промежуточное (без прерывания); Промежуточное (генерация);Завершающее событие"
+						v:sortKey="B" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Начальное событие)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Условие;Сигнал;Составное;Ошибка;Компенсация;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Start" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Условие;Сигнал;Составное;Ошибка;Компенсация;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Intermediate" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Ошибка;Отмена;Компенсация;Условие;Ссылка;Сигнал;Составное;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_End_Throwing" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Компенсация;Ссылка;Сигнал;Составное;Эскалация" v:sortKey="B" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_End" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Ошибка;Отмена;Компенсация;Сигнал;Прервать;Составное;Эскалация" v:sortKey="B"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnEventDetailType" v:lbl="    Тип сведений о событии" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Ошибка;Отмена;Компенсация;Условие;Ссылка;Сигнал;Прервать;Составное;Эскалация;Составное параллельное"
+						v:sortKey="C" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey="C"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Событие)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Start_NonInterrupting" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Сообщение;Таймер;Условие;Сигнал;Составное;Эскалация;Составное параллельное" v:sortKey="B"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Intermediate_NonInterrupting" v:lbl="Триггер или результат" v:prompt=""
+						v:type="1" v:format="Сообщение;Таймер;Условие;Сигнал;Составное;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="BPMNFillPattern" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Event)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(140000):26"/>
+			</v:userDefs>
+			<title>Начальное событие.360</title>
+			<g id="shape361-48" v:mID="361" v:groupContext="shape" v:layerMember="0">
+				<title>Лист.361</title>
+				<v:userDefs>
+					<v:ud v:nameU="EventTypeMode" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<ellipse cx="5.22169" cy="282.384" rx="5.22169" ry="5.22169" class="st10"/>
+			</g>
+			<g id="shape362-52" v:mID="362" v:groupContext="shape" v:layerMember="0">
+				<title>Лист.362</title>
+				<ellipse cx="5.22169" cy="282.384" rx="4.17735" ry="4.17735" class="st11"/>
+			</g>
+			<g id="shape363-54" v:mID="363" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-2.214)">
+				<title>Лист.363</title>
+				<ellipse cx="3.0077" cy="284.598" rx="3.0077" ry="3.0077" class="st12"/>
+			</g>
+			<g id="shape364-56" v:mID="364" v:groupContext="shape" v:layerMember="0" transform="translate(1.04434,-1.04434)">
+				<title>Лист.364</title>
+				<ellipse cx="4.17735" cy="283.428" rx="4.17735" ry="4.17735" class="st13"/>
+			</g>
+			<g id="shape365-58" v:mID="365" v:groupContext="shape" v:layerMember="0" transform="translate(2.34976,-3.13302)">
+				<title>Лист.365</title>
+			</g>
+			<g id="shape366-60" v:mID="366" v:groupContext="shape" v:layerMember="0"
+					transform="translate(8.52678,-3.15121) scale(-1,1)">
+				<title>Лист.366</title>
+			</g>
+			<g id="shape367-62" v:mID="367" v:groupContext="shape" v:layerMember="0" transform="translate(2.38675,-2.38675)">
+				<title>Лист.367</title>
+			</g>
+			<g id="shape368-64" v:mID="368" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-3.58583)">
+				<title>Лист.368</title>
+			</g>
+			<g id="shape369-66" v:mID="369" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-2.63145)">
+				<title>Лист.369</title>
+			</g>
+			<g id="shape370-68" v:mID="370" v:groupContext="shape" v:layerMember="0" transform="translate(2.34976,-3.13302)">
+				<title>Лист.370</title>
+			</g>
+			<g id="shape371-70" v:mID="371" v:groupContext="shape" v:layerMember="0" transform="translate(2.86261,-2.4803)">
+				<title>Лист.371</title>
+			</g>
+			<g id="shape372-72" v:mID="372" v:groupContext="shape" v:layerMember="0" transform="translate(2.08868,-2.08868)">
+				<title>Лист.372</title>
+			</g>
+			<g id="shape360-74" v:mID="360" v:groupContext="groupContent" v:layerMember="0"/>
+		</g>
+		<g id="shape381-76" v:mID="381" v:groupContext="shape" v:layerMember="1" transform="translate(164.242,-213.102)">
+			<title>Динамическая соединительная линия.381</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.32117694504025):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.48124734544904):24"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.3046630037679):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0,-0.48124734544904)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(149000):26"/>
+			</v:userDefs>
+			<path d="M0 287.61 L0 352.65 A4.25197 4.25197 -180 0 0 4.25 356.91 L16.19 356.91 A4.25197 4.25197 -180 0 0 19.45 355.39
+						 A2.3622 2.3622 0 0 1 23.07 355.39 A4.25197 4.25197 -180 0 0 26.33 356.91 L41.21 356.91" class="st14"/>
+		</g>
+		<g id="shape382-82" v:mID="382" v:groupContext="shape" v:layerMember="1" transform="translate(293.853,-218.324)">
+			<title>Динамическая соединительная линия.382</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.13054277670848):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.50000002558688):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.098425194621086,-0.13054277670848)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(150000):26"/>
+			</v:userDefs>
+			<path d="M7.09 287.61 L7.09 301.36" class="st16"/>
+		</g>
+		<g id="group383-88" transform="translate(137.761,-213.102)" v:mID="383" v:groupContext="group" v:layerMember="0">
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey="A"
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnEventType" v:lbl="Тип события" v:prompt="" v:type="1"
+						v:format="Начальное событие;Начальное (без прерывания); Промежуточное событие; Промежуточное (без прерывания); Промежуточное (генерация);Завершающее событие"
+						v:sortKey="B" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Начальное событие)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Условие;Сигнал;Составное;Ошибка;Компенсация;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Start" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Условие;Сигнал;Составное;Ошибка;Компенсация;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Intermediate" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Ошибка;Отмена;Компенсация;Условие;Ссылка;Сигнал;Составное;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_End_Throwing" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Компенсация;Ссылка;Сигнал;Составное;Эскалация" v:sortKey="B" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_End" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Ошибка;Отмена;Компенсация;Сигнал;Прервать;Составное;Эскалация" v:sortKey="B"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnEventDetailType" v:lbl="    Тип сведений о событии" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Ошибка;Отмена;Компенсация;Условие;Ссылка;Сигнал;Прервать;Составное;Эскалация;Составное параллельное"
+						v:sortKey="C" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey="C"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Событие)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Start_NonInterrupting" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Сообщение;Таймер;Условие;Сигнал;Составное;Эскалация;Составное параллельное" v:sortKey="B"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Intermediate_NonInterrupting" v:lbl="Триггер или результат" v:prompt=""
+						v:type="1" v:format="Сообщение;Таймер;Условие;Сигнал;Составное;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="BPMNFillPattern" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Event)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(151000):26"/>
+			</v:userDefs>
+			<title>Начальное событие.342</title>
+			<g id="shape384-89" v:mID="384" v:groupContext="shape" v:layerMember="0">
+				<title>Лист.384</title>
+				<v:userDefs>
+					<v:ud v:nameU="EventTypeMode" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<ellipse cx="5.22169" cy="282.384" rx="5.22169" ry="5.22169" class="st18"/>
+			</g>
+			<g id="shape385-93" v:mID="385" v:groupContext="shape" v:layerMember="0">
+				<title>Лист.385</title>
+				<ellipse cx="5.22169" cy="282.384" rx="4.17735" ry="4.17735" class="st19"/>
+			</g>
+			<g id="shape386-95" v:mID="386" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-2.214)">
+				<title>Лист.386</title>
+				<ellipse cx="3.0077" cy="284.598" rx="3.0077" ry="3.0077" class="st12"/>
+			</g>
+			<g id="shape387-97" v:mID="387" v:groupContext="shape" v:layerMember="0" transform="translate(1.04434,-1.04434)">
+				<title>Лист.387</title>
+				<ellipse cx="4.17735" cy="283.428" rx="4.17735" ry="4.17735" class="st20"/>
+			</g>
+			<g id="shape388-99" v:mID="388" v:groupContext="shape" v:layerMember="0" transform="translate(2.34976,-3.13302)">
+				<title>Лист.388</title>
+			</g>
+			<g id="shape389-101" v:mID="389" v:groupContext="shape" v:layerMember="0"
+					transform="translate(8.52678,-3.15121) scale(-1,1)">
+				<title>Лист.389</title>
+			</g>
+			<g id="shape390-103" v:mID="390" v:groupContext="shape" v:layerMember="0" transform="translate(2.38675,-2.38675)">
+				<title>Лист.390</title>
+			</g>
+			<g id="shape391-105" v:mID="391" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-3.58583)">
+				<title>Лист.391</title>
+			</g>
+			<g id="shape392-107" v:mID="392" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-2.63145)">
+				<title>Лист.392</title>
+			</g>
+			<g id="shape393-109" v:mID="393" v:groupContext="shape" v:layerMember="0" transform="translate(2.34976,-3.13302)">
+				<title>Лист.393</title>
+			</g>
+			<g id="shape394-111" v:mID="394" v:groupContext="shape" v:layerMember="0" transform="translate(2.86261,-2.4803)">
+				<title>Лист.394</title>
+			</g>
+			<g id="shape395-113" v:mID="395" v:groupContext="shape" v:layerMember="0" transform="translate(2.08868,-2.08868)">
+				<title>Лист.395</title>
+			</g>
+			<g id="shape383-115" v:mID="383" v:groupContext="groupContent" v:layerMember="0"/>
+		</g>
+		<g id="shape396-117" v:mID="396" v:groupContext="shape" v:layerMember="1" transform="translate(142.982,-213.102)">
+			<title>Динамическая соединительная линия.396</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.46881474545064):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.78273915421165):24"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.31589261502822):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0,-0.78273915421165)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(152000):26"/>
+			</v:userDefs>
+			<path d="M0 287.61 L0 396.07 A4.25197 4.25197 -180 0 0 4.25 400.32 L37.45 400.32 A4.25197 4.25197 -180 0 0 40.71 398.8
+						 A2.3622 2.3622 0 0 1 44.33 398.8 A4.25197 4.25197 -180 0 0 47.59 400.32 L62.47 400.32" class="st21"/>
+		</g>
+		<g id="shape358-123" v:mID="358" v:groupContext="shape" transform="translate(17.1016,-190.873)">
+			<title>Лист.358</title>
+			<desc>error WebSocket connection to &#39;ws:// localhost:5008/graphql&#39; ...</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(138000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.397" cy="275.297" width="118.8" height="24.6167"/>
+			<rect x="0" y="262.989" width="118.794" height="24.6167" class="st23"/>
+			<text x="97.22" y="269.9" class="st24" v:langID="1033"><v:paragraph v:horizAlign="2"/><v:tabList/>error<v:newlineChar/><tspan
+						x="9.33" dy="1.2em" class="st25" v:langID="1049">WebSocket connection to &#39;ws://<v:newlineChar/></tspan><tspan
+						x="9.33" dy="1.2em" class="st25" v:langID="1049">localhost:5008/graphql&#39; failed</tspan></text>		</g>
+		<g id="shape400-128" v:mID="400" v:groupContext="shape" v:layerMember="0" transform="translate(210.492,-44.6648)">
+			<title>Скругленный процесс.335</title>
+			<desc>is waiting</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(153000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" rx="12.3083" ry="12.3083" class="st3"/>
+			<text x="67.01" y="277.7" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>is waiting</text>		</g>
+		<g id="shape401-131" v:mID="401" v:groupContext="shape" v:layerMember="0" transform="translate(210.492,-1.25)">
+			<title>Внешняя сущность 1.338</title>
+			<desc>delay</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Стоимость" v:type="7" v:format="@" v:langID="1049"/>
+				<v:cp v:nameU="Duration" v:lbl="Длительность" v:type="2" v:langID="1049"/>
+				<v:cp v:nameU="Resources" v:lbl="Ресурсы" v:langID="1049"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(154000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="90.4476" cy="275.297" width="180.9" height="24.6167"/>
+			<rect x="0" y="262.989" width="180.895" height="24.6167" class="st3"/>
+			<text x="78.73" y="277.7" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1" v:bulletSize="0.166667"/><v:tabList/>delay</text>		</g>
+		<g id="shape402-134" v:mID="402" v:groupContext="shape" v:layerMember="1" transform="translate(293.853,-88.0796)">
+			<title>Динамическая соединительная линия.402</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.13054277670848):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.50000002558688):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.098425194621086,-0.13054277670848)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(155000):26"/>
+			</v:userDefs>
+			<path d="M7.09 287.61 L7.09 301.36" class="st16"/>
+		</g>
+		<g id="shape403-139" v:mID="403" v:groupContext="shape" v:layerMember="1" transform="translate(293.853,-44.6648)">
+			<title>Динамическая соединительная линия.403</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.13054277670848):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.50000002558688):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.098425194621086,-0.13054277670848)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(156000):26"/>
+			</v:userDefs>
+			<path d="M7.09 287.61 L7.09 301.36" class="st16"/>
+		</g>
+		<g id="shape404-144" v:mID="404" v:groupContext="shape" v:layerMember="1" transform="translate(210.492,-13.5583)">
+			<title>Динамическая соединительная линия.404</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.62810818484181):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(1.3567131394317):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.36329461667116):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(-0.34707832690485,1.3567131394317)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(157000):26"/>
+			</v:userDefs>
+			<path d="M0 287.61 L-20.74 287.61 A4.25197 4.25197 0 0 1 -24.99 283.35 L-24.99 96.49 A4.25197 4.25197 0 0 1 -20.74 92.24
+						 L85.41 92.24" class="st16"/>
+		</g>
+		<g id="group419-149" transform="translate(517.64,-213.102)" v:mID="419" v:groupContext="group" v:layerMember="0">
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey="A"
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="A" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnEventType" v:lbl="Тип события" v:prompt="" v:type="1"
+						v:format="Начальное событие;Начальное (без прерывания); Промежуточное событие; Промежуточное (без прерывания); Промежуточное (генерация);Завершающее событие"
+						v:sortKey="B" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Начальное событие)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Условие;Сигнал;Составное;Ошибка;Компенсация;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Start" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Условие;Сигнал;Составное;Ошибка;Компенсация;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Intermediate" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Ошибка;Отмена;Компенсация;Условие;Ссылка;Сигнал;Составное;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_End_Throwing" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Компенсация;Ссылка;Сигнал;Составное;Эскалация" v:sortKey="B" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_End" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Ошибка;Отмена;Компенсация;Сигнал;Прервать;Составное;Эскалация" v:sortKey="B"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnEventDetailType" v:lbl="    Тип сведений о событии" v:prompt="" v:type="1"
+						v:format="Нет;Сообщение;Таймер;Ошибка;Отмена;Компенсация;Условие;Ссылка;Сигнал;Прервать;Составное;Эскалация;Составное параллельное"
+						v:sortKey="C" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey="C"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Событие)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Start_NonInterrupting" v:lbl="Триггер или результат" v:prompt="" v:type="1"
+						v:format="Сообщение;Таймер;Условие;Сигнал;Составное;Эскалация;Составное параллельное" v:sortKey="B"
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnTriggerOrResult_Intermediate_NonInterrupting" v:lbl="Триггер или результат" v:prompt=""
+						v:type="1" v:format="Сообщение;Таймер;Условие;Сигнал;Составное;Эскалация;Составное параллельное"
+						v:sortKey="B" v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="BPMNFillPattern" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Event)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(158000):26"/>
+			</v:userDefs>
+			<title>Начальное событие.419</title>
+			<g id="shape420-150" v:mID="420" v:groupContext="shape" v:layerMember="0">
+				<title>Лист.420</title>
+				<v:userDefs>
+					<v:ud v:nameU="EventTypeMode" v:prompt="" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<ellipse cx="5.22169" cy="282.384" rx="5.22169" ry="5.22169" class="st10"/>
+			</g>
+			<g id="shape421-153" v:mID="421" v:groupContext="shape" v:layerMember="0">
+				<title>Лист.421</title>
+				<ellipse cx="5.22169" cy="282.384" rx="4.17735" ry="4.17735" class="st11"/>
+			</g>
+			<g id="shape422-155" v:mID="422" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-2.214)">
+				<title>Лист.422</title>
+				<ellipse cx="3.0077" cy="284.598" rx="3.0077" ry="3.0077" class="st12"/>
+			</g>
+			<g id="shape423-157" v:mID="423" v:groupContext="shape" v:layerMember="0" transform="translate(1.04434,-1.04434)">
+				<title>Лист.423</title>
+				<ellipse cx="4.17735" cy="283.428" rx="4.17735" ry="4.17735" class="st13"/>
+			</g>
+			<g id="shape424-159" v:mID="424" v:groupContext="shape" v:layerMember="0" transform="translate(2.34976,-3.13302)">
+				<title>Лист.424</title>
+			</g>
+			<g id="shape425-161" v:mID="425" v:groupContext="shape" v:layerMember="0"
+					transform="translate(8.52678,-3.15121) scale(-1,1)">
+				<title>Лист.425</title>
+			</g>
+			<g id="shape426-163" v:mID="426" v:groupContext="shape" v:layerMember="0" transform="translate(2.38675,-2.38675)">
+				<title>Лист.426</title>
+			</g>
+			<g id="shape427-165" v:mID="427" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-3.58583)">
+				<title>Лист.427</title>
+			</g>
+			<g id="shape428-167" v:mID="428" v:groupContext="shape" v:layerMember="0" transform="translate(2.214,-2.63145)">
+				<title>Лист.428</title>
+			</g>
+			<g id="shape429-169" v:mID="429" v:groupContext="shape" v:layerMember="0" transform="translate(2.34976,-3.13302)">
+				<title>Лист.429</title>
+			</g>
+			<g id="shape430-171" v:mID="430" v:groupContext="shape" v:layerMember="0" transform="translate(2.86261,-2.4803)">
+				<title>Лист.430</title>
+			</g>
+			<g id="shape431-173" v:mID="431" v:groupContext="shape" v:layerMember="0" transform="translate(2.08868,-2.08868)">
+				<title>Лист.431</title>
+			</g>
+			<g id="shape419-175" v:mID="419" v:groupContext="groupContent" v:layerMember="0"/>
+		</g>
+		<g id="shape432-177" v:mID="432" v:groupContext="shape" v:layerMember="1" transform="translate(515.776,-213.401)">
+			<title>Динамическая соединительная линия.432</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(-0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.50000001305744):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.098425194621086,-0.098425196850394)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(159000):26"/>
+			</v:userDefs>
+			<path d="M7.09 287.9 L7.09 296.44" class="st14"/>
+		</g>
+		<g id="shape433-182" v:mID="433" v:groupContext="shape" v:layerMember="1" transform="translate(300.939,-208.925)">
+			<title>Динамическая соединительная линия.433</title>
+			<v:custProps>
+				<v:cp v:nameU="BpmnId" v:lbl="Идентификатор" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnCategories" v:lbl="Категории" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnDocumentation" v:lbl="Документация" v:prompt="" v:type="0" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnName" v:lbl="Name" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="true" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="BpmnConnectingObjectType" v:lbl="Тип соединяющего объекта" v:prompt="" v:type="1"
+						v:format="Поток управления;Поток сообщений;Ассоциация" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1049" v:cal="0" v:val="VT4(Поток управления)"/>
+				<v:cp v:nameU="BpmnConditionType" v:lbl="Тип условия" v:prompt="" v:type="1" v:format="Нет;Выражение;По умолчанию"
+						v:sortKey="" v:invis="false" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Нет)"/>
+				<v:cp v:nameU="BpmnDirection" v:lbl="Направление" v:prompt="" v:type="1" v:format="Нет;Одно;Два" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Одно)"/>
+				<v:cp v:nameU="BpmnElementType" v:lbl="Тип элемента" v:prompt="" v:type="1"
+						v:format="Подпроцесс;Событие;Шлюз;Схема процесса;Пул;Дорожка;Артефакт;Соединяющий объект" v:sortKey=""
+						v:invis="true" v:ask="false" v:langID="1049" v:cal="0" v:val="VT4(Соединяющий объект)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(Connecting Object)"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.49212598425197):24"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.098425196850394):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4999999961853):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.49212598425197,0.098425194621086)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="PositionX" v:prompt="" v:val="VT0(0.91302337606226):1"/>
+				<v:ud v:nameU="PositionY" v:prompt="" v:val="VT0(0.1507459043813):1"/>
+				<v:ud v:nameU="NearestPointOnPath" v:prompt="" v:val="VT0(0.4435702625046):26"/>
+				<v:ud v:nameU="PtOnPath" v:prompt="" v:val="VT7(PNT(0.91302337606226,0)):40"/>
+				<v:ud v:nameU="IsInstance" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(160000):26"/>
+			</v:userDefs>
+			<path d="M0 287.61 L105.96 287.61 A4.25197 4.25197 -180 0 0 110.22 283.35 L110.22 270.15 A4.25197 4.25197 0 0 1 114.47
+						 265.9 L126.44 265.9" class="st16"/>
+		</g>
+		<g id="shape436-187" v:mID="436" v:groupContext="shape" transform="translate(164.242,-174.909)">
+			<title>Лист.436</title>
+			<desc>connected</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(161000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.8898" cy="275.297" width="63.78" height="24.6167"/>
+			<rect x="0" y="262.989" width="63.7795" height="24.6167" class="st23"/>
+			<text x="4" y="277.1" class="st26" v:langID="1033"><v:paragraph/><v:tabList/>connected</text>		</g>
+		<g id="shape442-190" v:mID="442" v:groupContext="shape" transform="translate(525.659,-196.095)">
+			<title>Лист.442</title>
+			<desc>next message</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(162000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.8898" cy="275.297" width="63.78" height="24.6167"/>
+			<rect x="0" y="262.989" width="63.7795" height="24.6167" class="st23"/>
+			<text x="4" y="273.5" class="st26" v:langID="1033"><v:paragraph/><v:tabList/>next<v:newlineChar/><tspan x="4"
+						dy="1.2em" class="st25">message</tspan></text>		</g>
+	</g>
+</svg>
