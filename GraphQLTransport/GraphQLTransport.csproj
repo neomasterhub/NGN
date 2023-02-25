@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<Import Project="..\stylecop.props" />
+
+	<ItemGroup>
+		<PackageReference Include="HotChocolate.AspNetCore" Version="13.0.2" />
+		<PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AppInfo\AppInfo.csproj" />
+		<ProjectReference Include="..\DAL\DAL.csproj" />
+	</ItemGroup>
+
+</Project>
