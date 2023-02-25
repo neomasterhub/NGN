@@ -95,3 +95,10 @@ mutation {
   }
 }
 ```
+
+## <a name="3"></a> 3. EF Migration
+```cmd
+cd webapi
+dotnet ef database update --configuration=Release
+```
+The Release configuration is used because so that there are no links to unit test classes.
