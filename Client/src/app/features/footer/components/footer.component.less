@@ -1,0 +1,45 @@
+footer {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  font-family: "Fira Mono", monospace;
+  font-size: 10pt;
+
+  #copyright {
+    padding: 0 15px;
+    color: cornflowerblue;
+  }
+
+  #version {
+    color: slategrey;
+    div {
+      line-height: 1;
+    }
+  }
+
+  #server-status {
+    padding: 0 15px;
+    margin-left: auto;
+  }
+
+  .offline:after {
+    color: firebrick;
+    content: "🖤offline";
+  }
+
+  .online:after {
+    color: green;
+    content: "💚online";
+  }
+
+  .ping:after {
+    color: gray;
+    content: "ping...";
+  }
+
+  .undefined {
+    color: gray;
+    content: "undefined";
+  }
+}
