@@ -9,6 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{CC3A29E6-FF76-41C9-B7D4-AF2AA919089D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{4E4395D2-94A0-42BC-83C9-005AE696FB61}"
+	ProjectSection(SolutionItems) = preProject
+		http.targets = http.targets
+		testing.targets = testing.targets
+		versioning.targets = versioning.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +33,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EC757E5D-D19A-498C-BA88-54299DD8FF7B} = {CC3A29E6-FF76-41C9-B7D4-AF2AA919089D}
 		{CC3A29E6-FF76-41C9-B7D4-AF2AA919089D} = {6A6D5BFE-E1D7-4EF1-8FAA-8E083E0BD124}
+		{4E4395D2-94A0-42BC-83C9-005AE696FB61} = {6A6D5BFE-E1D7-4EF1-8FAA-8E083E0BD124}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F3E8740-2696-43FC-B2C6-E64FA254A2CE}
