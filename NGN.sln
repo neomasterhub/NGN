@@ -16,6 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{4E43
 		versioning.targets = versioning.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StyleCop", "StyleCop", "{AB3E0FEC-08D2-48DF-906E-643AB6842EA3}"
+	ProjectSection(SolutionItems) = preProject
+		StyleCop.json = StyleCop.json
+		StyleCop.props = StyleCop.props
+		StyleCop.ruleset = StyleCop.ruleset
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +41,7 @@ Global
 		{EC757E5D-D19A-498C-BA88-54299DD8FF7B} = {CC3A29E6-FF76-41C9-B7D4-AF2AA919089D}
 		{CC3A29E6-FF76-41C9-B7D4-AF2AA919089D} = {6A6D5BFE-E1D7-4EF1-8FAA-8E083E0BD124}
 		{4E4395D2-94A0-42BC-83C9-005AE696FB61} = {6A6D5BFE-E1D7-4EF1-8FAA-8E083E0BD124}
+		{AB3E0FEC-08D2-48DF-906E-643AB6842EA3} = {6A6D5BFE-E1D7-4EF1-8FAA-8E083E0BD124}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F3E8740-2696-43FC-B2C6-E64FA254A2CE}
