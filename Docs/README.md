@@ -1,6 +1,12 @@
 # NGN
 **.Net Graphql Ngrx project base**
 
+[![apollo-angular](https://img.shields.io/badge/apollo--angular-v4.2.1--alpha-informational)](https://www.npmjs.com/package/apollo-angular/v/4.2.1-alpha-20230210085539-0e747997)
+[![graphql-ws](https://img.shields.io/badge/graphql--ws-v5.11.3-informational)](https://www.npmjs.com/package/graphql-ws/v/5.11.3)
+[![@angular/cli](https://img.shields.io/badge/@angular/cli-v15.0.5-informational)](https://www.npmjs.com/package/@angular/cli/v/15.0.5)
+
+---
+
 1. [About](#1)
 2. [GraphQL Examples](#2)
 3. [EF Migration](#3)
