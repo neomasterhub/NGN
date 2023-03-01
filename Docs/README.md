@@ -1,12 +1,12 @@
 # NGN
 **.Net Graphql Ngrx project base**
 
-[![apollo-angular](https://img.shields.io/badge/apollo--angular-v4.2.1--alpha-informational)](https://www.npmjs.com/package/apollo-angular/v/4.2.1-alpha-20230210085539-0e747997)
-[![graphql-ws](https://img.shields.io/badge/graphql--ws-v5.11.3-informational)](https://www.npmjs.com/package/graphql-ws/v/5.11.3)
-[![graphql](https://img.shields.io/badge/graphql-^v16-informational)](https://www.npmjs.com/package/graphql/v/16.6.0)
-[![@angular/cli](https://img.shields.io/badge/@angular/cli-v15.0.5-informational)](https://www.npmjs.com/package/@angular/cli/v/15.0.5)
-[![Hot Chocolate](https://img.shields.io/badge/Hot_Chocolate-v13.0.2-informational)](https://chillicream.com/docs/hotchocolate/v13)
 [![.NET](https://img.shields.io/badge/.NET-v6-informational)](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+[![Hot Chocolate](https://img.shields.io/badge/Hot_Chocolate-v13.0.2-informational)](https://chillicream.com/docs/hotchocolate/v13)
+[![@angular/cli](https://img.shields.io/badge/@angular/cli-v15.0.5-informational)](https://www.npmjs.com/package/@angular/cli/v/15.0.5)
+[![graphql](https://img.shields.io/badge/graphql-^v16-informational)](https://www.npmjs.com/package/graphql/v/16.6.0)
+[![graphql-ws](https://img.shields.io/badge/graphql--ws-v5.11.3-informational)](https://www.npmjs.com/package/graphql-ws/v/5.11.3)
+[![apollo-angular](https://img.shields.io/badge/apollo--angular-v4.2.1--alpha-informational)](https://www.npmjs.com/package/apollo-angular/v/4.2.1-alpha-20230210085539-0e747997)
 
 ---
 1. [About](#1)
